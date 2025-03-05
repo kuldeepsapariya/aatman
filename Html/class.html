@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Classes Attributes</title>
+        <style>
+            .city{
+                background-color: antiquewhite;
+                color: black;
+                border: 2px solid black;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            .note {
+                font-size: 120%;
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="city">
+            <h1>rajkot</h1>
+        </div>
+
+        <div class="city">
+            <h1>rajkot</h1>
+        </div>
+
+        <h1>My <span class="note">Important</span> Heading</h1>
+        <p>This is some <span class="note">important</span> text.</p>
+
+        <button onclick="myFunction()">Hide elements</button>
+
+        <h2 class="test">Paris</h2>
+        <p class="city">Paris is the capital of France</p>
+        
+    </body>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("test");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+        }
+        </script>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flex Page</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style type="text/css">
+  .bd-highlight {
+    background-color: rgba(86,61,124,0.15);
+    border: 1px solid rgba(86,61,124,0.15);
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+	
+<div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
+
+<div class="d-inline-flex p-2 bd-highlight">I'm an inline flexbox container!</div>
+
+<!-- Direction -->
+
+<div class="d-flex flex-row bd-highlight mb-3 ">
+  <div class="p-2 bd-highlight">Flex item 1</div>
+  <div class="p-2 me-auto bd-highlight">Flex item 2</div>
+  <div class="p-2 bd-highlight">Flex item 3</div>
+</div>
+<div class="d-flex flex-row-reverse bd-highlight align-self-baseline">
+  <div class="p-2  bd-highlight">Flex item 1</div>
+  <div class="p-2  bd-highlight">Flex item 2</div>
+  <div class="p-2 flex-grow-1 bd-highlight">Flex item 3</div>
+</div>
+
+<div class="d-flex align-items-start flex-column bd-highlight mb-3" style="height: 200px;">
+  <div class="mb-auto p-2 bd-highlight">Flex item</div>
+  <div class="p-2 bd-highlight">Flex item</div>
+  <div class="p-2 bd-highlight">Flex item</div>
+</div>
+
+
+<div class="d-flex align-content-around flex-wrap bd-highlight mb-3">
+  <div class="p-2 bd-highlight">Flex item 1</div>
+  <div class="p-2 bd-highlight">Flex item 2</div>
+  <div class="p-2 bd-highlight">Flex item 3</div>
+</div>
+
+<!-- order -->
+
+<div class="d-flex flex-nowrap bd-highlight">
+  <div class="order-3 p-2 bd-highlight">First flex item</div>
+  <div class="order-2 p-2 bd-highlight">Second flex item</div>
+  <div class="order-1 p-2 bd-highlight">Third flex item</div>
+</div>
+
+
+<!-- image -->
+
+<div class="d-flex align-items-center">
+  <div class="flex-shrink-0">
+    <img src="E:\Festpic\assets\img\festpic-favicon.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3">
+    This is some content from a media component. You can replace this with any content and adjust it as needed.
+  </div>
+</div>
+
+
+-------------------------------------------------------------------------------------------------------------------
+</div>
+<!-- Float -->
+
+<div class="container">
+  
+<div class="float-sm-start">Float start on all viewport sizes</div><br>
+<div class="float-end">Float end on all viewport sizes</div><br>
+<div class="float-xl-start">Don't float on all viewport sizes</div><br>
+-------------------------------------------------------------------------------------------------------------------
+
+<!-- text selection  -->
+
+<p class="user-select-all">This paragraph will be entirely selected when clicked by the user.</p>
+<p class="user-select-auto">This paragraph has default select behavior.</p>
+<p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p><br>
+
+-------------------------------------------------------------------------------------------------------------------
+
+<!-- Pointer events -->
+
+<p><a href="#" class="pe-none" tabindex="-1" aria-disabled="true">This link</a> can not be clicked.</p>
+<p><a href="#" class="pe-auto">This link</a> can be clicked (this is default behavior).</p><br>
+
+-------------------------------------------------------------------------------------------------------------------
+
+<!-- overflow -->
+
+<div class="overflow-auto">This paragraph will be entirely selected when clicked by the user.</div>
+<div class="overflow-hidden">This paragraph will be entirely selected when clicked by the user.</div>
+<div class="overflow-visible">This paragraph will be entirely selected when clicked by the user.</div>
+<div class="overflow-scroll">This paragraph will be entirely selected when clicked by the user.</div>
+
+
+</div>
+</body>
+</html>

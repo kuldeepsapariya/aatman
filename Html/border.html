@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>Border With Css</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            h2{
+                border-style: dotted;
+                margin: 10px 20px 30px 40px;
+            }
+            p.dotted {
+                /* border-style: dotted; */
+                outline-style: dotted;
+                outline-color: red;
+                outline-width: thin;
+                outline: thick ridge pink;
+                outline-offset: 5px;
+
+            }
+            p.dashed {
+                border-style: dashed;
+                color: green;
+                unicode-bidi: bidi-override;
+                vertical-align: text-top;
+                text-align-last: center;
+                text-decoration-line: underline;
+                text-decoration-color: blue;
+                text-decoration-style: wavy;
+                text-transform: uppercase;
+                text-indent: 50px;
+                letter-spacing: 5px;
+                line-height: 1.8;
+                word-spacing: 10px;
+                white-space: nowrap;
+                text-shadow: 2px 2px 5px red;
+
+            }
+            p.solid {
+                border-style: solid;
+                font-family: Copperplate, Papyrus, fantasy;
+                font-style: oblique;
+                font-weight: bold;
+                font-variant: small-caps;
+
+            }
+            p.double {
+                border-style: double;
+                font-size: 40px;
+                font-size: 1.875em; /* 30px/16=1.875em */
+                font-size: 100%;
+                font-family: "Sofia", sans-serif;
+                text-shadow: 3px 3px 3px #ababab;
+            }
+            p.groove {
+                border-style: groove;
+                list-style-type: circle;
+
+            }
+            p.ridge {
+                border-style: ridge;
+            }
+            p.inset {
+                border-style: inset;
+            }
+            p.outset {
+                border-style: outset;
+            }
+            p.none {
+                border-style: none;
+            }
+            p.hidden {
+                border-style: hidden;
+            }
+            p.mix {
+                border-style: dotted dashed solid double;
+            }
+
+            div {
+                border: 1px solid red;
+                margin-left: 10px;
+                padding: 100px;
+                height: 200px;
+                width: 50%;
+            }
+
+            p.ex1 {
+                margin-left: inherit;
+            }
+
+
+            #borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(D:/Aatman/images/workplace.jpg) 50 round;
+}
+
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(D:/Aatman/images/workplace.jpg) 20% round;
+}
+
+#borderimg3 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(D:/Aatman/images/workplace.jpg) 30% round;
+}
+            </style>
+    </head>
+    <body>
+        
+        <h2>The border-style Property</h2>
+            <p>This property specifies what kind of border to display:</p>
+
+            <p class="dotted">A dotted border.</p>
+            <p class="dashed">A dashed border.</p>
+            <p class="solid">A solid border.</p>
+            <p class="double"  class="font-effect-fire">A double border.</p>
+            <p class="groove" >A groove border.</p>
+            <p class="ridge">A ridge border.</p>
+            <p class="inset">An inset border.</p>
+            <p class="outset">An outset border.</p>
+            <p class="none">No border.</p>
+            <p class="hidden">A hidden border.</p>
+            <p class="mix">A mixed border.</p>
+
+            <div>
+                <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+                </div>
+
+
+                <h1>Bootstrap icon library</h1>
+
+                <p>Some Bootstrap icons:</p>
+                <i class="glyphicon glyphicon-cloud"></i>
+                <i class="glyphicon glyphicon-remove"></i>
+                <i class="glyphicon glyphicon-user"></i>
+                <i class="glyphicon glyphicon-envelope"></i>
+                <i class="glyphicon glyphicon-thumbs-up"></i>
+                <br><br>
+                
+                <p>Styled Bootstrap icons (size and color):</p>
+                <i class="glyphicon glyphicon-cloud" style="font-size:24px;"></i>
+                <i class="glyphicon glyphicon-cloud" style="font-size:36px;"></i>
+                <i class="glyphicon glyphicon-cloud" style="font-size:48px;color:red;"></i>
+                <i class="glyphicon glyphicon-cloud" style="font-size:60px;color:lightblue;"></i>
+                
+
+                <h1>The border-image Property</h1>
+
+<p id="borderimg1">border-image: url(border.png) 50 round;</p>
+<p id="borderimg2">border-image: url(border.png) 20% round;</p>
+<p id="borderimg3">border-image: url(border.png) 30% round;</p>
+
+<p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image property.</p>
+
+    </body>
+</html>

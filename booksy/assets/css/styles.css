@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+	max-width: 50%;
+}
+
+.nav-text{
+	color: black;
+}
+
+.nav-text:hover{
+	color: gray;
+	text-decoration-line: underline;
+}
+
+.month-bg{
+	background-color: #f5f2ed;
+}
+.website-bg{
+	background: url('D:/Aatman/booksy/assets/img/website.jpg')  no-repeat center/cover;
+	height: 45vh;
+}
+
+.book-bg{
+	background: url('D:/Aatman/booksy/assets/img/books.jpg')  no-repeat center/cover;
+	height: 45vh;
+}

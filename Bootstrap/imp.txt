@@ -1,0 +1,180 @@
+es - extra small  <576
+sm - small        >=576
+md - medium       >=768
+lg - large        >=992
+xl - extra large  >=1200
+xxl - extra extra large  >=1400
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
+
+
+container	
+container-sm
+container-md
+container-lg
+container-xl
+container-xxl	
+container-fluid
+
+row
+row-cols-2
+row-cols-3    single row in multiple column indicate 
+			
+.col-
+.col-sm-
+.col-md-
+.col-lg-
+.col-xl-
+.col-xxl
+
+column 12 
+column 9
+column 6
+column 4
+column 3	
+
+p-3 padding max 5 
+
+mb - 3 margin bottom
+ms - margin from start 
+me - margin end
+mt - margin top
+mx - margin x
+my - margin y
+
+
+g - gutter
+gx - gutter x   padding right , left
+gy - gutter y   padding top, bottom
+
+
+Border-radius - rounded
+Border-width  - border-1  1 is width  max 5 
+border   	 top,bottom, end, start
+
+bg-dark or more color
+text-black or more color
+text-center or more alignment
+
+display - d 
+display block  - d-block
+
+
+form-label
+form-control
+form-control-lg
+
+disabled or disabled readonly
+
+offset-md-* classes. These classes raise the left margin of a column by * columns.
+
+ms-md-auto = margin start medium auto 
+
+
+align-items-end   full content 
+
+align-self-start    one content
+
+justify-content-center
+
+order-5    order sequence in set all items
+
+
+position-static
+
+color name :
+
+primary
+secondary
+success
+danger
+warning
+info 
+light
+dark
+
+
+
+carousel slide 
+carousel-indicators
+data-bs-slide-to     imp
+carousel-inner
+carousel-item
+carousel-control-prev
+carousel-control-prev-icon
+carousel-control-next
+carousel-control-next-icon
+
+collapse      click to show and hide
+multi-collapse    multiple collapse add karva mate 
+
+list-group 
+list-group-flush      remove border and some rounded corner   
+list-group-numbered    number add
+list-group-horizontal    
+list-group-item    
+list-group-item-action    click action 
+
+modal       like as a alert box 
+modal-sm
+modal-lg
+modal-xl
+modal-dialog
+modal-dialog-centered
+modal-dailog-scrollable
+modal-content
+modal-header
+modal-title
+modal-body
+modal-footer  
+
+nav
+justify-content-center    horizontal
+flex-column    vertical
+flex-sm-row
+flex-sm-fill       flex show
+text-sm-center      
+nav-tabs
+nav-pills
+nav-fill
+nav-justified
+nav-item
+nav-link
+
+
+navbar    default
+navbar-expand-lg
+navbar-light
+navbar-brand
+navbar-toggler         menu hide show 
+navabr-toggler-icon
+navbar-collapse
+navbar-nav
+
+fixed-top   
+fixed-bottom
+sticky-top
+
+pagination
+pagination-lg
+page-item
+page-link
+
+progress
+progress-bar
+progress-bar-striped
+progress-bar-animated
+
+toast
+toast-header
+toast-body
+
+figure      
+figure-img 
+figure-caption  

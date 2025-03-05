@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Images</title>
+
+        <style>
+            body {
+              background-image: url('D:/Aatman/images/workplace.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              /* background-size: cover; */
+              background-size: 100% 100%;
+            }
+            </style>
+            
+            <link rel="icon" type="image/x-icon" href="D:/Aatman/images/workplace.jpg">
+
+    </head>
+    <body>
+        
+    <!-- The src Attribute & alt &  Width and Height-->
+
+    <img src="D:/Aatman/images/wallpaper.jpg" alt="wallpaper" width="200px" height="100px">
+
+    <!-- Width and Height, or Style? or Images in Another Folder-->
+
+    <img src="D:/Aatman/images/wallpaper.jpg" alt="wallpaper" Style="width: 200px; height: 100px;">
+
+    <!-- Images on Another Server/Website -->
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+    <!-- Image Floating -->
+
+    <p><img src="D:/Aatman/images/wallpaper.jpg" alt="wallpaper" style="float:right;width:150px;height:75px;">
+        The image will float to the right of the text.</p>
+        
+    <!-- Image Maps -->
+
+    <img src="D:/Aatman/images/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+
+
+    <map name="workmap">
+        <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+      </map>
+      
+      <script>
+      function myFunction() {
+        alert("You clicked the coffee cup!");
+      }
+      </script>
+
+    <picture>
+        <!-- <source media="(min-width: 650px)" srcset="img_food.jpg"> -->
+        <!-- <source media="(min-width: 465px)" srcset="img_car.jpg"> -->
+        <img src="D:/Aatman/images/workplace.jpg">
+  </picture>
+
+    </body>
+</html>
